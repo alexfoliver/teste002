@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/administrativo/images/iconeAFO.ico">
+    <!-- Incluir os icones do font-awesome da CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/administrativo/css/custom_adm.css">
+    <title>Listar - AFO SISTEMAS</title>
+</head>
+
+<body class="d-flex">
+    <!--INICIO NAVBAR - CABEÇALHO-->
+    <nav class="navbar">
+        <div class="navbar_content">
+            <div class="bars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <img src="/administrativo/images/user.jpg" alt="AFO SISTEMAS" class="logo" width="40">
+        </div>
+
+        <div class="navbar_content">
+            <div class="notification">
+                <i class="fa-solid fa-bell"></i>
+                <span class="number">7</span>
+                <div class="dropdown_menu">
+                    <div class="dropdown_content">
+                        <li>
+                            <img src="/administrativo/images/user.jpg" alt="Usuario" width="40">
+                            <div class="text">
+                                texto da notificação, texto da notificação, texto da notificação.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/administrativo/images/user.jpg" alt="Usuario" width="40">
+                            <div class="text">
+                                texto da notificação, texto da notificação, texto da notificação.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/administrativo/images/user.jpg" alt="Usuario" width="40">
+                            <div class="text">
+                                texto da notificação, texto da notificação, texto da notificação.
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/administrativo/images/user.jpg" alt="Usuario" width="40">
+                            <div class="text">
+                                texto da notificação, texto da notificação, texto da notificação.
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <!--MENU-->
+            <div class="avatar">
+                <img src="/administrativo/images/user.jpg" alt="Usuario" width="40">
+                <div class="dropdown_menu setting">
+                    <div class="item">
+                        <span class="fa-solid fa-user"></span> Perfil
+                    </div>
+                    <div class="item">
+                        <span class="fa-solid fa-gear"></span> Configuração
+                    </div>
+                    <div class="item">
+                        <span class="fa-solid fa-arrow-right-from-bracket"></span> Sair
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Fim Navbar -->
+
+    <!-- Inicio Conteudo -->
+    <div class="content">
+        <!-- Inicio da Sidebar -->
+        <div class="sidebar">
+            <a href="/administrativo/index.html" class="sidebar-nav"><i
+                    class="icon fa-solid fa-house"></i><span>Dashboard</span></a>
+
+            <a href="/administrativo/listar.html" class="sidebar-nav active"><i
+                    class="icon fa-solid fa-users"></i><span>Listar</span></a>
+
+            <a href="/administrativo/login.html" class="sidebar-nav"><i
+                    class="icon fa-solid fa-arrow-right-from-bracket"></i><span>Sair</span></a>
+
+        </div>
+        <!-- Fim da Sidebar -->
+        <!-- Inicio do conteudo do administrativo -->
+        <div class="wrapper">
+            <div class="row">
+                <div class="top-list">
+                    <span class="title-content">Listar</span>
+                    <div class="top-list-right">
+                        <!--<button type="button" class="btn-success">Cadastrar</button>-->
+                        <button type="button" class="btn-success"><i class="fa-solid fa-square-plus"></i></button>                        
+                    </div>
+                </div>
+                <table class="table-list">
+                    <!-- Tabela -->
+                    <thead class="list-head">
+                        <!-- Cabeçalho da Tabela -->
+                        <tr>
+                            <!-- Linha -->
+                            <th class="list-head-content table-sm-none">ID</th> <!-- Células do Cabeçalho -->
+                            <th class="list-head-content">Nome</th>
+                            <th class="list-head-content table-sm-none">E-mail</th>
+                            <th class="list-head-content table-sm-none">Coluna1</th>
+                            <th class="list-head-content table-md-none">Coluna2</th>
+                            <th class="list-head-content table-lg-none">Coluna3</th>
+                            <th class="list-head-content">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list-body">
+                        <!-- Corpo do Conteúdo -->
+                        <tr>
+                            <!-- Linha 1 -->
+                            <td class="list-body-content table-sm-none">1</td> <!-- Células do Conteúdo -->
+                            <td class="list-body-content">Alex Dev</td>
+                            <td class="list-body-content table-sm-none">alexferrazoliveira@gmail.com</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button type="button" class="btn-warning"><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button type="button" class="btn-danger"><i class="fa-solid fa-trash-can"></i></button>                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Linha 2 -->
+                            <td class="list-body-content table-sm-none">2</td>
+                            <td class="list-body-content">AFO Sistemas</td>
+                            <td class="list-body-content table-sm-none">afosistemas@gmail.com</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button type="button" class="btn-warning"><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button type="button" class="btn-danger"><i class="fa-solid fa-trash-can"></i></button>                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- Linha 3 -->
+                            <td class="list-body-content table-sm-none">3</td>
+                            <td class="list-body-content">AFO Suporte</td>
+                            <td class="list-body-content table-sm-none">sac@afosistemas.tech</td>
+                            <td class="list-body-content table-sm-none">Coluna 1</td>
+                            <td class="list-body-content table-md-none">Coluna 2</td>
+                            <td class="list-body-content table-lg-none">Coluna 3</td>
+                            <td class="list-body-content">
+                                <button type="button" class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <button type="button" class="btn-warning"><i class="fa-solid fa-pen-to-square"></i></button>
+                                <button type="button" class="btn-danger"><i class="fa-solid fa-trash-can"></i></button>                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Paginação -->
+                <div class="content-pagination">
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Fim do conteudo do administrativo -->
+    </div>
+    <!-- Fim Conteudo -->
+
+    <script src="/administrativo/js/custom_adm.js"></script>
+
+</body>
+
+</html>
